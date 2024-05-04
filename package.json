@@ -1,0 +1,44 @@
+{
+  "name": "@ariiera/remark-lint-styleguide",
+  "version": "1.0.0",
+  "description": "remark-lint styleguide preset",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariiiera/remark-lint-styleguide.git"
+  },
+  "keywords": [
+    "remark",
+    "linting",
+    "remark-lint",
+    "proofreading",
+    "writing"
+  ],
+  "author": "ariiera (Noah Vazquez)",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/ariiiera/remark-lint-styleguide/issues"
+  },
+  "homepage": "https://github.com/ariiiera/remark-lint-styleguide#readme",
+  "dependencies": {
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-lint": "^9.1.2",
+    "remark-lint-blockquote-indentation": "^3.1.2",
+    "remark-lint-checkbox-character-style": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}

@@ -1,0 +1,27 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+# Unix-style newlines and a final newline at the end of the file,
+# and charset set to utf-8 for cross-platform compatibility
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Indentation settings for most file types
+[*.{astro,js,jsx,ts,tsx,html,css,scss,md,mdx,json,yml}]
+indent_style = space
+indent_size = 2
+
+# Indentation settings specifically for Python files
+[*.py]
+indent_style = space
+indent_size = 4
+
+# Override settings for md & mdx files
+[*.md, *.mdx]
+max_line_length = off
+trim_trailing_whitespace = false
